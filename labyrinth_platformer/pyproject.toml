@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "pygame-platformer"
+version = "0.1.0"
+description = "Учебный проект для практики навыков работы с PyGame"
+authors = ["mementomorri <mementomorimore@gmail.com>"]
+license = "GNU General Public License v3.0"
+readme = "README.md"
+packages = [{include = "pygame_platformer"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+pygame = "^2.1.3"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
